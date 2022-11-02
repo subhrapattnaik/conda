@@ -41,11 +41,15 @@ sometimes all the needed modules will be given in a file ,for ex: packages.txt
 touch packages.txt
 
 pandas
+\
 numpy
+\
 matplotlib
 
 
-ESC, :wq
+ESC
+\
+:wq
 
 ---------
 pip install -r packages.txt
