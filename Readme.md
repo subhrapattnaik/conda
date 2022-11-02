@@ -36,9 +36,9 @@ pip list
 pip freeze
 
 -----------------------------------------------
-sometimes all the needed modules will be given in a file ,for ex: packages.txt
+sometimes all the needed modules will be given in a file ,for ex: requirements.txt
 -----------------
-touch packages.txt
+touch requirements.txt
 
 pandas
 \
@@ -52,7 +52,7 @@ ESC
 :wq
 
 ---------
-pip install -r packages.txt
+pip install -r requirements.txt
 
 All packages will be installed
 -----------------------------------------------
